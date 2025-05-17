@@ -1,6 +1,6 @@
 package src.Entities.Discounts;
 
-import src.Entities.Budget;
+import src.Entities.Order.Order;
 
 import java.math.BigDecimal;
 
@@ -12,7 +12,7 @@ public class WithoutDiscount extends Discount
     }
 
     @Override
-    public BigDecimal calculate(Budget value) {
+    public BigDecimal calculate(Order value) {
         return null;
     }
 
